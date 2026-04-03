@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/duckdb/duckdb-go/v2"
+	"github.com/mrchypark/duckdb-go/v2"
 )
 
 // Overload my_length with two user-defined scalar functions.

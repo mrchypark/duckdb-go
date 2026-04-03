@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/duckdb/duckdb-go/v2/mapping"
+	"github.com/mrchypark/duckdb-go/v2/mapping"
 )
 
 // secondsPerDay to calculate the days since 1970-01-01.
