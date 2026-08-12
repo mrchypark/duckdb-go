@@ -1,7 +1,7 @@
 # Go SQL Driver For [DuckDB](https://github.com/duckdb/duckdb)
 
 ![Tests status](https://github.com/duckdb/duckdb-go/actions/workflows/tests.yaml/badge.svg)
-[![GoDoc](https://godoc.org/github.com/duckdb/duckdb-go/v2?status.svg)](https://pkg.go.dev/github.com/duckdb/duckdb-go/v2)
+[![GoDoc](https://godoc.org/github.com/mrchypark/duckdb-go/v2?status.svg)](https://pkg.go.dev/github.com/mrchypark/duckdb-go/v2)
 
 The DuckDB driver conforms to the built-in `database/sql` interface.
 
@@ -46,14 +46,14 @@ To migrate:
 
 ```sh
 # Update dependency
-go get github.com/duckdb/duckdb-go/v2@v2.5.0
+go get github.com/mrchypark/duckdb-go/v2@v2.5.0
 
 # Rewrite import paths
-gofmt -w -r '"github.com/marcboeker/go-duckdb/v2" -> "github.com/duckdb/duckdb-go/v2"' .
+gofmt -w -r '"github.com/marcboeker/go-duckdb/v2" -> "github.com/mrchypark/duckdb-go/v2"' .
 
 # If you use the mapping or arrowmapping submodules, also run
-gofmt -w -r '"github.com/marcboeker/go-duckdb/mapping" -> "github.com/duckdb/duckdb-go/v2/mapping"' .
-gofmt -w -r '"github.com/marcboeker/go-duckdb/arrowmapping" -> "github.com/duckdb/duckdb-go/v2/arrowmapping"' .
+gofmt -w -r '"github.com/marcboeker/go-duckdb/mapping" -> "github.com/mrchypark/duckdb-go/v2/mapping"' .
+gofmt -w -r '"github.com/marcboeker/go-duckdb/arrowmapping" -> "github.com/mrchypark/duckdb-go/v2/arrowmapping"' .
 
 # Clean up
 go mod tidy
@@ -110,7 +110,7 @@ A workaround is casting to `::VARCHAR` or `::BLOB` in DuckDB if you do not need 
 ## Installation
 
 ```sh
-go get github.com/duckdb/duckdb-go/v2
+go get github.com/mrchypark/duckdb-go/v2
 ```
 
 ### Windows
