@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/duckdb/duckdb-go/v2/mapping"
+	"github.com/mrchypark/duckdb-go/v2/mapping"
 )
 
 type StmtType mapping.StatementType

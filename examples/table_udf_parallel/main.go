@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/duckdb/duckdb-go/v2"
+	"github.com/mrchypark/duckdb-go/v2"
 )
 
 type (

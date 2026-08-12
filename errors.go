@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/duckdb/duckdb-go/v2/mapping"
+	"github.com/mrchypark/duckdb-go/v2/mapping"
 )
 
 func getError(errDriver, err error) error {

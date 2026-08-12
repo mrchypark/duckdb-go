@@ -5,7 +5,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/duckdb/duckdb-go/v2/mapping"
+	"github.com/mrchypark/duckdb-go/v2/mapping"
 )
 
 // vector storage of a DuckDB column.
